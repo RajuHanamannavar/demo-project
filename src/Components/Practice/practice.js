@@ -4,6 +4,8 @@ function secondLargest(arr) {
   return unique.sort((a, b) => b - a)[2];
 }
 
+
+// Added comment line
 console.log(secondLargest([10, 5, 8, 20, 3]));   
 console.log(secondLargest([4, 4, 4]));          
 console.log(secondLargest([1]));                
